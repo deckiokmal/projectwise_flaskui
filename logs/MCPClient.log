@@ -38,3 +38,17 @@
 2025-08-02 00:07:02,690 - MCPClient - INFO - MCPClient initialized with short-term memory support
 2025-08-02 00:07:47,826 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
 2025-08-02 00:07:48,777 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 00:19:31,444 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 00:19:31,862 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 00:19:38,763 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 00:19:39,286 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 00:19:53,116 - MCPClient - INFO - Available tools: ['heartbeat', 'list_kak_files', 'list_product_files', 'add_product_knowledge', 'add_kak_tor_knowledge', 'summarize_kak_with_llm', 'rag_retrieval', 'list_metadata_entries', 'reset_vector_database', 'reset_and_reingest_all', 'read_project_markdown', 'get_template_placeholders', 'generate_proposal_docx', 'websearch']
+2025-08-02 00:19:53,117 - MCPClient - INFO - keep_alive_loop cancelled
+2025-08-02 00:19:58,029 - MCPClient - INFO - [d2ae4ee8] Processing query: halo
+2025-08-02 00:19:59,865 - MCPClient - INFO - [d2ae4ee8] Intent: other (conf=0.50)
+2025-08-02 00:20:00,417 - MCPClient - INFO - [d2ae4ee8] - Turn 1/20
+2025-08-02 00:20:01,488 - MCPClient - INFO - [d2ae4ee8] Total latency: 3.46s
+2025-08-02 00:20:19,779 - MCPClient - INFO - [19c63b74] Processing query: rangkum percakapan kita
+2025-08-02 00:20:21,441 - MCPClient - INFO - [19c63b74] Intent: other (conf=0.70)
+2025-08-02 00:20:22,203 - MCPClient - INFO - [19c63b74] - Turn 1/20
+2025-08-02 00:20:27,149 - MCPClient - INFO - [19c63b74] Total latency: 7.37s

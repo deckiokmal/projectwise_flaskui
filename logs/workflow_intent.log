@@ -7,3 +7,7 @@
 2025-08-02 00:06:10,973 - workflow_intent - INFO - Raw router output: {"intent":"other","confidence_score":0.6}
 2025-08-02 00:07:02,172 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
 2025-08-02 00:07:47,808 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-02 00:19:31,430 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-02 00:19:38,748 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-02 00:19:59,864 - workflow_intent - INFO - Raw router output: {"intent":"other","confidence_score":0.5}
+2025-08-02 00:20:21,440 - workflow_intent - INFO - Raw router output: {"intent":"other","confidence_score":0.7}
