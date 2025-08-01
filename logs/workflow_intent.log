@@ -1,0 +1,50 @@
+2025-08-01 18:45:56,058 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 18:46:04,280 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:13:50,106 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:13:57,962 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:15:34,077 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:16:30,009 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:16:37,165 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:17:29,307 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:17:37,938 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:19:53,205 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:23:51,037 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:24:05,823 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:24:13,490 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:26:13,110 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:26:26,361 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:31:04,030 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:31:19,132 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:40:11,143 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:40:48,032 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:51:54,774 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:52:05,807 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:52:24,348 - workflow_intent - INFO - Raw router output: {"intent":"other","confidence_score":0.5}
+2025-08-01 19:54:55,752 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:55:06,355 - workflow_intent - INFO - Raw router output: {"intent":"other","confidence_score":0.5}
+2025-08-01 19:56:32,879 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:56:39,923 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 19:56:53,997 - workflow_intent - INFO - Raw router output: {"intent":"other","confidence_score":0.5}
+2025-08-01 19:57:57,030 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 20:01:08,422 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 20:01:15,194 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 20:01:31,468 - workflow_intent - INFO - Raw router output: {"intent":"other","confidence_score":0.5}
+2025-08-01 22:37:47,273 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 22:38:47,454 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 22:38:56,287 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 22:39:14,289 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 22:39:21,548 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 22:39:52,394 - workflow_intent - INFO - Raw router output: {"intent":"other","confidence_score":0.95}
+2025-08-01 22:45:53,064 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 22:46:07,139 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 22:52:21,656 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 22:52:39,975 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 23:06:54,647 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 23:07:00,899 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 23:12:33,155 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 23:12:45,570 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 23:14:33,688 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 23:18:37,587 - workflow_intent - INFO - Raw router output: {"intent":"other","confidence_score":0.5}
+2025-08-01 23:19:20,432 - workflow_intent - INFO - Raw router output: {"intent":"other","confidence_score":0.8}
+2025-08-01 23:20:22,426 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log
+2025-08-01 23:20:33,968 - workflow_intent - DEBUG - [Logger] Initialized 'workflow_intent', output → D:\1. PROJECTS\projectwise_flaskui\logs\workflow_intent.log

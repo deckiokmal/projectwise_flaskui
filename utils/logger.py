@@ -1,36 +1,56 @@
+# utils/logger.py
+
 import logging
 import sys
 from pathlib import Path
+from logging.handlers import TimedRotatingFileHandler
 
 
-# Buat folder logs jika belum ada
-log_dir = Path(__file__).resolve().parent.parent / "logs"
-log_dir.mkdir(parents=True, exist_ok=True)
+def get_logger(name: str) -> logging.Logger:
+    """
+    Mengembalikan logger dengan:
+    - File handler rotating harian, retention 90 hari.
+    - Console handler.
+    - Nama file log diambil dari bagian terakhir `name`.
+    """
+    # Tentukan folder logs
+    log_dir = Path(__file__).resolve().parent.parent / "logs"
+    log_dir.mkdir(parents=True, exist_ok=True)
 
-# Tentukan log file berdasarkan lokasi caller
-caller_path = Path(sys.argv[0]).resolve()
-if "mcp_client" in str(caller_path):
-    log_file = log_dir / "mcp_client.log"
-else:
-    log_file = log_dir / "mcp_generic.log"
+    # Ambil nama modul / blueprint terakhir untuk nama file
+    file_name = name.split(".")[-1] + ".log"
+    log_file = log_dir / file_name
 
-logger = logging.getLogger("MCPLogger")
-logger.setLevel(logging.DEBUG)
+    # Buat logger
+    logger = logging.getLogger(name)
+    logger.setLevel(logging.DEBUG)
+    logger.propagate = False  # Hindari duplikasi handler
 
-# File handler
-file_handler = logging.FileHandler(log_file)
-file_handler.setLevel(logging.DEBUG)
-file_handler.setFormatter(
-    logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
-)
-logger.addHandler(file_handler)
+    if not logger.handlers:
+        # Rotating file handler: setiap tengah malam, simpan 90 hari
+        file_handler = TimedRotatingFileHandler(
+            filename=log_file,
+            when="midnight",
+            interval=1,
+            backupCount=90,
+            encoding="utf-8",
+        )
+        file_handler.setLevel(logging.DEBUG)
+        file_formatter = logging.Formatter(
+            "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+        )
+        file_handler.setFormatter(file_formatter)
+        logger.addHandler(file_handler)
 
-# Console handler
-console_handler = logging.StreamHandler(sys.stdout)
-console_handler.setLevel(logging.INFO)
-console_handler.setFormatter(
-    logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
-)
-logger.addHandler(console_handler)
+        # Console handler
+        console_handler = logging.StreamHandler(sys.stdout)
+        console_handler.setLevel(logging.INFO)
+        console_formatter = logging.Formatter(
+            "%(asctime)s - %(levelname)s - %(message)s"
+        )
+        console_handler.setFormatter(console_formatter)
+        logger.addHandler(console_handler)
 
-logger.debug(f"Logger initialized from {caller_path}, writing to {log_file}")
+        logger.debug(f"[Logger] Initialized '{name}', output → {log_file}")
+
+    return logger

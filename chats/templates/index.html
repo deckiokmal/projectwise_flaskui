@@ -1,29 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ProjectWise Chatbot</title>
-    <link rel="stylesheet" href="/static/css/styles.css" />
+    <title>ProjectWise Chat & MCP Control</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
 </head>
 
 <body>
-    <div class="chat-container">
-        <div id="chat-window"></div>
-        <div class="input-group">
-            <input id="chat-input" placeholder="Tulis pesan..." />
-            <button id="send-btn">Kirim</button>
-        </div>
-        <form id="upload-form" enctype="multipart/form-data">
-            <input type="text" name="project" placeholder="Nama Proyek" required />
-            <input type="text" name="pelanggan" placeholder="Pelanggan" required />
-            <input type="number" name="tahun" placeholder="Tahun" required />
-            <input type="file" name="file" accept=".pdf,.docx" required />
-            <button type="submit">Upload Dokumen</button>
-        </form>
+    <div class="container">
+        <header>
+            <h1>ProjectWise Chat</h1>
+            <div class="mcp-switch">
+                <button id="mcp-connect-btn">Connect</button>
+                <button id="mcp-disconnect-btn" disabled>Disconnect</button>
+                <span id="mcp-status">Status: <strong>Disconnected</strong></span>
+            </div>
+        </header>
+
+        <main>
+            <div id="chat-window">
+                <!-- Pesan akan muncul di sini -->
+            </div>
+            <div class="chat-input">
+                <input type="text" id="user-message" placeholder="Ketik pesan..." />
+                <button id="send-btn">Kirim</button>
+            </div>
+        </main>
     </div>
-    <script src="/static/js/chat.js"></script>
+
+    <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
 </body>
 
 </html>

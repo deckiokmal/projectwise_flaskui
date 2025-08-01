@@ -1,0 +1,116 @@
+2025-08-01 18:43:40,373 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 18:45:51,277 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 18:45:58,354 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:13:39,251 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:13:52,500 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:15:29,308 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:16:25,377 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:16:31,750 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:17:24,803 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:17:31,312 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:19:32,993 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:23:45,677 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:23:59,786 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:24:08,023 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:26:03,810 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:26:16,384 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:30:54,818 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:31:10,617 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:40:06,076 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:40:39,985 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:40:53,260 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:51:49,256 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:51:57,280 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:52:26,655 - chats.controllers.chat - ERROR - Error saat memproses chat: Unable to retrieve tools after 2 reconnects
+Traceback (most recent call last):
+  File "D:\1. PROJECTS\projectwise_flaskui\chats\controllers\chat.py", line 43, in chat
+    response = await mcp_client.process_query(message)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\1. PROJECTS\projectwise_flaskui\services\mcp_client.py", line 167, in process_query
+    return await self._run_other(trace, query, user_id, max_turns)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\1. PROJECTS\projectwise_flaskui\services\mcp_client.py", line 254, in _run_other
+    tools = await self.get_tools()
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\1. PROJECTS\projectwise_flaskui\services\mcp_client.py", line 138, in get_tools
+    raise RuntimeError("Unable to retrieve tools after 2 reconnects")
+RuntimeError: Unable to retrieve tools after 2 reconnects
+2025-08-01 19:54:51,138 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:55:08,069 - chats.controllers.chat - ERROR - Error saat memproses chat: Unable to retrieve tools after 2 reconnects
+Traceback (most recent call last):
+  File "D:\1. PROJECTS\projectwise_flaskui\chats\controllers\chat.py", line 43, in chat
+    response = await mcp_client.process_query(message)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\1. PROJECTS\projectwise_flaskui\services\mcp_client.py", line 168, in process_query
+    return await self._run_other(trace, query, user_id, max_turns)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\1. PROJECTS\projectwise_flaskui\services\mcp_client.py", line 255, in _run_other
+    tools = await self.get_tools()
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\1. PROJECTS\projectwise_flaskui\services\mcp_client.py", line 139, in get_tools
+    raise RuntimeError("Unable to retrieve tools after 2 reconnects")
+RuntimeError: Unable to retrieve tools after 2 reconnects
+2025-08-01 19:56:28,058 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:56:34,412 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:56:55,780 - chats.controllers.chat - ERROR - Error saat memproses chat: Unable to retrieve tools after 2 reconnects
+Traceback (most recent call last):
+  File "D:\1. PROJECTS\projectwise_flaskui\chats\controllers\chat.py", line 43, in chat
+    response = await mcp_client.process_query(message)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\1. PROJECTS\projectwise_flaskui\services\mcp_client.py", line 168, in process_query
+    return await self._run_other(trace, query, user_id, max_turns)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\1. PROJECTS\projectwise_flaskui\services\mcp_client.py", line 255, in _run_other
+    tools = await self.get_tools()
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\1. PROJECTS\projectwise_flaskui\services\mcp_client.py", line 139, in get_tools
+    raise RuntimeError("Unable to retrieve tools after 2 reconnects")
+RuntimeError: Unable to retrieve tools after 2 reconnects
+2025-08-01 19:57:51,868 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 19:58:12,152 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 20:01:03,801 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 20:01:10,055 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 20:01:32,262 - chats.controllers.chat - ERROR - Error saat memproses chat: Unable to retrieve tools after 2 reconnects
+Traceback (most recent call last):
+  File "D:\1. PROJECTS\projectwise_flaskui\chats\controllers\chat.py", line 43, in chat
+    response = await mcp_client.process_query(message)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\1. PROJECTS\projectwise_flaskui\services\mcp_client.py", line 177, in process_query
+    return await self._run_other(trace, query, user_id, max_turns)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\1. PROJECTS\projectwise_flaskui\services\mcp_client.py", line 264, in _run_other
+    tools = await self.get_tools()
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\1. PROJECTS\projectwise_flaskui\services\mcp_client.py", line 148, in get_tools
+    raise RuntimeError("Unable to retrieve tools after 2 reconnects")
+RuntimeError: Unable to retrieve tools after 2 reconnects
+2025-08-01 22:38:42,653 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 22:38:51,802 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 22:39:09,766 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 22:39:16,064 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 22:39:53,313 - chats.controllers.chat - ERROR - Error saat memproses chat: Unable to retrieve tools after 2 reconnects
+Traceback (most recent call last):
+  File "D:\1. PROJECTS\projectwise_flaskui\chats\controllers\chat.py", line 43, in chat
+    response = await mcp_client.process_query(message)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\1. PROJECTS\projectwise_flaskui\services\mcp_client.py", line 177, in process_query
+    return await self._run_other(trace, query, user_id, max_turns)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\1. PROJECTS\projectwise_flaskui\services\mcp_client.py", line 264, in _run_other
+    tools = await self.get_tools()
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\1. PROJECTS\projectwise_flaskui\services\mcp_client.py", line 148, in get_tools
+    raise RuntimeError("Unable to retrieve tools after 2 reconnects")
+RuntimeError: Unable to retrieve tools after 2 reconnects
+2025-08-01 22:45:47,980 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 22:46:00,881 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 22:52:12,379 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 22:52:33,859 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 22:53:33,440 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 23:06:50,172 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 23:06:56,217 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 23:12:28,097 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 23:12:40,043 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 23:14:28,790 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 23:20:17,315 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-01 23:20:27,883 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log

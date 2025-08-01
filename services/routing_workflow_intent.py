@@ -1,9 +1,12 @@
 from __future__ import annotations
 import json
 from typing import Literal
-from utils.logger import logger
+from utils.logger import get_logger
 from pydantic import BaseModel, Field, ValidationError
 from .prompt_instruction import PROMPT_WORKFLOW_INTENT, FEW_SHOT_EXAMPLES
+
+
+logger = get_logger("workflow_intent")
 
 
 class IntentRoute(BaseModel):

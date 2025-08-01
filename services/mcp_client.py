@@ -1,15 +1,14 @@
 from __future__ import annotations
 import asyncio
 from typing import Any, Dict, List, Optional
-# from contextlib import AsyncExitStack
+from contextlib import AsyncExitStack, suppress
 
 import json
 import uuid
 import time
 from dotenv import load_dotenv
-from anyio import ClosedResourceError
 
-from utils.logger import logger
+from utils.logger import get_logger
 from utils.helper import safe_args, truncate_by_tokens, infer_kak_md, best_match
 from config.mcp_settings import MCPSettings
 
@@ -26,6 +25,7 @@ PIPE_TIMEOUT_SEC = 180
 
 load_dotenv()
 settings = MCPSettings()
+logger = get_logger("MCPClient")
 
 
 class MCPClient:
@@ -36,9 +36,13 @@ class MCPClient:
         self.settings = settings
         self.session: Optional[ClientSession] = None
         self._keep_alive_task: Optional[asyncio.Task] = None
+        self._exit_stack: Optional[AsyncExitStack] = None
         self._connected = False
         self.tools: List[Dict[str, Any]] = []
         self._http_context = None
+        self.tool_cache: List[Dict[str, Any]] = []
+        self._tools_update_task: Optional[asyncio.Task] = None
+        self._auto_reconnect: bool = True
         logger.info("MCPClient initialized with HTTP transport")
 
     def is_connected(self) -> bool:
@@ -72,69 +76,115 @@ class MCPClient:
             asyncio.create_task(self.cleanup())
             asyncio.create_task(self.connect())
 
+    async def _periodic_tools_update(self) -> None:
+        """Fetch list_tools() tiap 60 detik dan simpan di cache."""
+        while True:
+            await asyncio.sleep(60)
+            if not self.is_connected():
+                continue
+            try:
+                tools_result = await self.session.list_tools()  # type: ignore
+                self.tool_cache = [
+                    {
+                        "type": "function",
+                        "function": {
+                            "name": t.name,
+                            "description": t.description,
+                            "parameters": t.inputSchema,
+                        },
+                    }
+                    for t in tools_result.tools
+                ]
+                logger.debug("Tool cache updated")
+            except Exception as e:
+                logger.warning(f"Failed to update tool cache: {e}")
+
     async def connect(self, endpoint: Optional[str] = None) -> bool:
         url = endpoint or self.settings.mcp_server_url
-        await self.cleanup()
-        try:
-            logger.info(f"Connecting to MCP Server via HTTP: {url}")
-            self._http_context = streamablehttp_client(url)
-            read_stream, write_stream, _ = await self._http_context.__aenter__()
-            self.session = await ClientSession(read_stream, write_stream).__aenter__()
+        if self._connected:
+            return True
 
+        # 1) Buat stack baru
+        self._exit_stack = AsyncExitStack()
+        await self._exit_stack.__aenter__()
+
+        try:
+            # 2) Masuk HTTP transport
+            http_ctx = streamablehttp_client(url)
+            read_s, write_s, _ = await self._exit_stack.enter_async_context(http_ctx)
+
+            # 3) Masuk MCP ClientSession
+            session_ctx = ClientSession(read_s, write_s)
+            self.session = await self._exit_stack.enter_async_context(session_ctx)
+
+            # 4) Inisialisasi & heartbeat
             await self.session.initialize()
             self._connected = True
-            logger.info("Connected to MCP Server via HTTP")
             self._keep_alive_task = asyncio.create_task(self.keep_alive_loop())
+            if not self._tools_update_task:
+                self._tools_update_task = asyncio.create_task(
+                    self._periodic_tools_update()
+                )
 
+            # 5) Inisialisasi Mem0
             try:
                 await self.memory_mgr.init()
             except Exception as e:
                 logger.warning(f"Mem0 init failed: {e}")
 
+            # 6) List tools
             self.tools = await self.get_tools()
             logger.info(
                 f"Available tools: {[t['function']['name'] for t in self.tools]}"
             )
+
             return True
 
-        except Exception as e:
-            logger.error(f"Connection to MCP Server failed: {e}", exc_info=True)
-            await self.cleanup()
+        except Exception:
+            # kalau gagal, tutup stack
+            await self._exit_stack.aclose()
+            self._connected = False
             return False
 
     async def call_tool(self, name: str, args: Dict[str, Any]) -> str:
-        await self.ensure_session_alive()
+        # 1. Jika manual‐disconnected, tolak panggilan
+        if not self._auto_reconnect and not self.is_connected():
+            raise RuntimeError("Session manually disconnected")
+
+        # 2. Jika session mati, coba reconnect sekali, tunggu selesai
+        if not self.is_connected():
+            logger.warning("Session lost → reconnecting before call_tool()")
+            await self.connect()
+
+        # 3. Panggil tool
         try:
             result = await self.session.call_tool(name, args)  # type: ignore
             return result.content[0].text  # type: ignore
         except Exception as e:
             logger.error(f"Tool call {name} failed: {e}", exc_info=True)
+            # tandai disconnect, inform front‐end via exception
+            self._connected = False
             raise
 
     async def get_tools(self) -> List[Dict[str, Any]]:
-        for attempt in (1, 2):
+        # Jika belum ada cache, fetch sekali
+        if not self.tool_cache:
             try:
-                tools_result = await self.session.list_tools()  # type: ignore
-                return [
+                result = await self.session.list_tools()  # type: ignore
+                self.tool_cache = [
                     {
                         "type": "function",
                         "function": {
-                            "name": tool.name,
-                            "description": tool.description,
-                            "parameters": tool.inputSchema,
+                            "name": t.name,
+                            "description": t.description,
+                            "parameters": t.inputSchema,
                         },
                     }
-                    for tool in tools_result.tools
+                    for t in result.tools
                 ]
-            except ClosedResourceError:
-                logger.warning(
-                    f"Attempt {attempt}: MCP session closed, reconnecting..."
-                )
-                await self.connect()
             except Exception as e:
-                logger.error(f"get_tools failed: {e}", exc_info=True)
-                raise
-        raise RuntimeError("Unable to retrieve tools after 2 reconnects")
+                logger.error(f"Initial get_tools() failed: {e}", exc_info=True)
+        return self.tool_cache
 
     async def process_query(
         self, query: str, user_id: str = "default", max_turns: int = 20
@@ -168,38 +218,24 @@ class MCPClient:
             duration = time.perf_counter() - start
             logger.info(f"[{trace}] Total latency: {duration:.2f}s")
 
-    async def cleanup(self) -> None:
+    async def cleanup(self):
+        # cancel heartbeat
         if self._keep_alive_task:
             self._keep_alive_task.cancel()
-            try:
+            with suppress(asyncio.CancelledError):
                 await self._keep_alive_task
-            except asyncio.CancelledError:
-                pass
 
-        if self.session:
+        # close exit stack
+        if self._exit_stack:
             try:
-                await self.session.__aexit__(None, None, None)
+                await self._exit_stack.aclose()
             except Exception as e:
-                logger.error(f"cleanup session failed: {e}", exc_info=True)
-
-        if self._http_context:
-            try:
-                await self._http_context.__aexit__(None, None, None)
-            except RuntimeError as re:
-                if "Attempted to exit cancel scope" in str(re):
-                    logger.debug(
-                        "cleanup: Ignored cancel-scope exit in streamablehttp_client."
-                    )
-                else:
-                    logger.error(
-                        f"cleanup http_context runtime error: {re}", exc_info=True
-                    )
-            except Exception as e:
-                logger.error(f"cleanup http_context failed: {e}", exc_info=True)
+                # Abaikan error “generator didn’t stop…” atau cancel‐scope mismatch
+                logger.debug(f"Ignored error during exit_stack.aclose(): {e}")
 
         self._connected = False
         self.session = None
-        self._http_context = None
+        self._exit_stack = None
         logger.info("MCPClient disconnected")
 
     async def _run_docgen(
@@ -269,6 +305,8 @@ class MCPClient:
             },
             {"role": "user", "content": query},
         ]
+
+        # Ambil tools atau gunakan cache
         tools = await self.get_tools()
         final_answer = None
 
