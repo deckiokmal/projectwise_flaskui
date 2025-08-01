@@ -1,0 +1,5 @@
+python-dotenv
+flask[async]
+openai
+mcp[cli]
+mem0ai
