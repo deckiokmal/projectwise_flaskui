@@ -1,21 +1,23 @@
 from __future__ import annotations
 import asyncio
-from typing import Any, Dict, List, Optional
-from contextlib import AsyncExitStack, suppress
-
 import json
 import uuid
 import time
+from contextlib import AsyncExitStack, suppress
+from typing import Any, Dict, List, Optional
+
+import sqlalchemy as sa
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker
+from anyio import ClosedResourceError
 from dotenv import load_dotenv
 
 from utils.logger import get_logger
 from utils.helper import safe_args, truncate_by_tokens, infer_kak_md, best_match
 from config.mcp_settings import MCPSettings
-
 from openai import AsyncOpenAI
 from mcp import ClientSession
 from mcp.client.streamable_http import streamablehttp_client
-
 from .mem0ai import Mem0Manager
 from .routing_workflow_intent import classify_intent
 from .pipeline_product_proposal import run as run_docgen_pipeline
@@ -28,30 +30,89 @@ settings = MCPSettings()
 logger = get_logger("MCPClient")
 
 
+# SQLAlchemy setup for short-term memory
+Base = declarative_base()
+
+
+class ChatSession(Base):
+    __tablename__ = "chat_sessions"
+    id = sa.Column(sa.Integer, primary_key=True)
+    user_id = sa.Column(sa.String(64), unique=True, nullable=False)
+
+
+class Message(Base):
+    __tablename__ = "messages"
+    id = sa.Column(sa.Integer, primary_key=True)
+    user_id = sa.Column(
+        sa.String(64), sa.ForeignKey("chat_sessions.user_id"), nullable=False
+    )
+    role = sa.Column(sa.String(16), nullable=False)
+    content = sa.Column(sa.Text, nullable=False)
+    timestamp = sa.Column(sa.DateTime, server_default=sa.func.now())
+
+
 class MCPClient:
-    def __init__(self, model: str = settings.llm_model):
+    def __init__(
+        self,
+        model: str = settings.llm_model,
+        memory_db: str = "sqlite:///chat_memory.sqlite",
+    ):
+        # LLM and MCP settings
         self.model = model
         self.llm = AsyncOpenAI()
         self.memory_mgr = Mem0Manager()
         self.settings = settings
         self.session: Optional[ClientSession] = None
-        self._keep_alive_task: Optional[asyncio.Task] = None
-        self._exit_stack: Optional[AsyncExitStack] = None
         self._connected = False
-        self.tools: List[Dict[str, Any]] = []
-        self._http_context = None
-        self.tool_cache: List[Dict[str, Any]] = []
+
+        # Short-term memory DB init
+        engine = sa.create_engine(memory_db, connect_args={"check_same_thread": False})
+        Base.metadata.create_all(engine)
+        self.DBSession = sessionmaker(bind=engine)
+
+        # Async tasks and caches
+        self._exit_stack: Optional[AsyncExitStack] = None
+        self._keep_alive_task: Optional[asyncio.Task] = None
         self._tools_update_task: Optional[asyncio.Task] = None
-        self._auto_reconnect: bool = True
-        logger.info("MCPClient initialized with HTTP transport")
+        self.tool_cache: List[Dict[str, Any]] = []
+        self._auto_reconnect = True
+        self._reconnect_lock = asyncio.Lock()
+
+        logger.info("MCPClient initialized with short-term memory support")
+
+    def _save_short_term(self, user_id: str, role: str, content: str) -> None:
+        db = self.DBSession()
+        # Ensure session exists
+        if not db.query(ChatSession).filter_by(user_id=user_id).first():
+            db.add(ChatSession(user_id=user_id))
+            db.commit()
+        db.add(Message(user_id=user_id, role=role, content=content))
+        db.commit()
+        db.close()
+
+    def _get_short_term(self, user_id: str, limit: int = 20) -> List[Dict[str, str]]:
+        db = self.DBSession()
+        q = (
+            db.query(Message)
+            .filter_by(user_id=user_id)
+            .order_by(Message.id.desc())
+            .limit(limit)
+        )
+        msgs = q.all()[::-1]  # reverse to chronological
+        db.close()
+        result = [{"role": m.role, "content": m.content} for m in msgs]
+        return result  # type: ignore
 
     def is_connected(self) -> bool:
         return self.session is not None and self._connected
 
     async def ensure_session_alive(self) -> None:
-        if not self.is_connected():
-            logger.warning("MCP session lost, reconnecting...")
-            asyncio.create_task(self.connect())
+        if not self.is_connected() and self._auto_reconnect:
+            # hanya satu coroutine boleh reconnect pada satu waktu
+            async with self._reconnect_lock:
+                if not self.is_connected():
+                    logger.warning("MCP session lost, reconnecting now...")
+                    await self.connect()
 
     async def keep_alive_loop(self, interval: int = 30) -> None:
         try:
@@ -147,22 +208,37 @@ class MCPClient:
             return False
 
     async def call_tool(self, name: str, args: Dict[str, Any]) -> str:
-        # 1. Jika manual‐disconnected, tolak panggilan
+        # respect manual‐disconnect
         if not self._auto_reconnect and not self.is_connected():
             raise RuntimeError("Session manually disconnected")
 
-        # 2. Jika session mati, coba reconnect sekali, tunggu selesai
-        if not self.is_connected():
-            logger.warning("Session lost → reconnecting before call_tool()")
-            await self.connect()
+        # pastikan sesi hidup, tunggu reconnect jika perlu
+        await self.ensure_session_alive()
 
-        # 3. Panggil tool
+        # sekarang coba kirim
         try:
             result = await self.session.call_tool(name, args)  # type: ignore
             return result.content[0].text  # type: ignore
+
+        except ClosedResourceError:
+            # write‐stream closed, reconnect + retry sekali
+            logger.warning(
+                f"Write stream closed on tool '{name}', reconnecting and retrying..."
+            )
+            async with self._reconnect_lock:
+                # bersihkan dulu state, new connect
+                await self.cleanup()
+                ok = await self.connect()
+                if not ok:
+                    raise RuntimeError("Reconnect failed before retrying call_tool()")
+
+                # retry
+                result = await self.session.call_tool(name, args)  # type: ignore
+                return result.content[0].text  # type: ignore
+
         except Exception as e:
             logger.error(f"Tool call {name} failed: {e}", exc_info=True)
-            # tandai disconnect, inform front‐end via exception
+            # tandai disconnect agar next call trigger reconnect
             self._connected = False
             raise
 
@@ -187,14 +263,36 @@ class MCPClient:
         return self.tool_cache
 
     async def process_query(
-        self, query: str, user_id: str = "default", max_turns: int = 20
+        self,
+        query: str,
+        user_id: str = "default",
+        max_turns: int = 20,
     ) -> str:
         trace = uuid.uuid4().hex[:8]
         start = time.perf_counter()
         logger.info(f"[{trace}] Processing query: {query}")
 
+        # 1) Load recent short-term memory as context
+        history = self._get_short_term(user_id, limit=10)
+        # messages: List[Dict[str, str]] = [
+        #     {"role": msg["role"], "content": msg["content"]} for msg in history
+        # ]
+        # Truncate tiap pesan maksimal 150 token
+        messages = [
+            {
+                "role": m["role"],
+                "content": truncate_by_tokens(m["content"], max_tokens=150),
+            }
+            for m in history
+        ]
+
+        # 2) Append user message
+        messages.append({"role": "user", "content": query})
+        self._save_short_term(user_id, "user", query)
+
+        # 3) Classify intent
         intent = "other"
-        for i in range(3):
+        for attempt in range(3):
             try:
                 route = await classify_intent(self.llm, query, self.model)
                 if route.confidence_score >= 0.7:
@@ -204,19 +302,21 @@ class MCPClient:
                 )
                 break
             except Exception as e:
-                logger.error(f"[{trace}] classify_intent attempt {i + 1} failed: {e}")
-                if i == 2:
-                    logger.warning(f"[{trace}] Falling back to 'other'")
-                await asyncio.sleep(2**i)
+                logger.error(f"[{trace}] classify_intent error: {e}")
+                await asyncio.sleep(2**attempt)
 
-        try:
-            if intent == "generate_document":
-                return await self._run_docgen(trace, query, user_id, max_turns)
-            else:
-                return await self._run_other(trace, query, user_id, max_turns)
-        finally:
-            duration = time.perf_counter() - start
-            logger.info(f"[{trace}] Total latency: {duration:.2f}s")
+        # 4) Route to handler
+        if intent == "generate_document":
+            answer = await self._run_docgen(trace, query, user_id, max_turns)
+        else:
+            answer = await self._run_other(trace, messages, user_id, max_turns)
+
+        # 5) Save assistant response
+        self._save_short_term(user_id, "assistant", answer)
+
+        duration = time.perf_counter() - start
+        logger.info(f"[{trace}] Total latency: {duration:.2f}s")
+        return answer
 
     async def cleanup(self):
         # cancel heartbeat
@@ -278,101 +378,82 @@ class MCPClient:
         )
         return reply
 
-    async def _run_other(self, trace_id: str, query: str, user_id: str, max_turns: int):
-        # ambil memori relevan
+    async def _run_other(
+        self,
+        trace_id: str,
+        messages: List[Dict[str, str]],
+        user_id: str,
+        max_turns: int,
+    ) -> str:
+        # Fetch relevant mem0ai if needed
         try:
-            memories = await self.memory_mgr.get_memories(query, limit=5)
+            raw_mems = await self.memory_mgr.get_memories(
+                messages[-1]["content"], limit=5
+            )
+            mem_block = (
+                "\n".join(f"- {truncate_by_tokens(m)}" for m in raw_mems)
+                or "[Tidak ada]"
+            )
+            system_mem = {
+                "role": "system",
+                "content": f"Memori historis relevan:\n{mem_block}\n\nGunakan memori di atas jika membantu.",
+            }
+            messages.insert(0, system_mem)
         except Exception as e:
             logger.error(f"[{trace_id}] mem0 search error: {e}")
-            memories = []
 
-        mem_block = (
-            "\n".join(f"- {truncate_by_tokens(m)}" for m in memories) or "[Tidak ada]"
-        )
-        system_mem = {
-            "role": "system",
-            "content": (
-                "Memori historis relevan:\n"
-                f"{mem_block}\n\n"
-                "Gunakan memori di atas jika membantu."
-            ),
-        }
-        messages = [
-            system_mem,
-            {
-                "role": "system",
-                "content": "Anda adalah “ProjectWise”, asisten virtual untuk tim Presales & PM.",
-            },
-            {"role": "user", "content": query},
-        ]
-
-        # Ambil tools atau gunakan cache
+        # Retrieve tools
         tools = await self.get_tools()
-        final_answer = None
+        final_answer: Optional[str] = None
 
-        try:
-            for turn in range(max_turns):
-                logger.info(f"[{trace_id}] - Turn {turn + 1}/{max_turns}")
-                response = await self.llm.chat.completions.create(
-                    model=self.model,
-                    messages=messages,  # type: ignore
-                    tools=tools,  # type: ignore
-                    tool_choice="auto",
+        for turn in range(max_turns):
+            logger.info(f"[{trace_id}] - Turn {turn + 1}/{max_turns}")
+            response = await self.llm.chat.completions.create(
+                model=self.model,
+                messages=messages,  # type: ignore
+                tools=tools,  # type: ignore
+                tool_choice="auto",
+            )
+            assistant_msg = response.choices[0].message
+            messages.append(assistant_msg.model_dump())
+
+            # No tool calls -> final answer
+            if not assistant_msg.tool_calls:
+                final_answer = assistant_msg.content or ""
+                break
+
+            # Execute tool calls
+            async def exec_tool(tc):
+                fname = tc.function.name
+                args = json.loads(tc.function.arguments)
+                logger.info(
+                    f"[{trace_id}] · Executing tool {fname} args={safe_args(args)}"
                 )
-                assistant_msg = response.choices[0].message
-                messages.append(assistant_msg.model_dump())
-
-                if not assistant_msg.tool_calls:  # ▶ Jawaban final
-                    final_answer = assistant_msg.content or "Tidak ada jawaban."
-                    break
-
-                # ─ Jalankan setiap tool call (parallel → gather) ─
-                async def _exec(tc):
-                    fname = tc.function.name
-                    try:
-                        args = json.loads(tc.function.arguments)
-                        logger.info(
-                            f"[{trace_id}]  · tool '{fname}' args={safe_args(args)}"
-                        )
-                        return await asyncio.wait_for(
-                            self.call_tool(fname, args), timeout=TOOL_TIMEOUT_SEC
-                        )
-                    except asyncio.TimeoutError:
-                        logger.error(f"[{trace_id}] tool {fname} TIMEOUT")
-                        return f"TIMEOUT executing {fname}"
-                    except Exception as e:
-                        logger.error(f"[{trace_id}] tool {fname} error: {e}")
-                        return f"Error executing {fname}: {e}"
-
-                results = await asyncio.gather(
-                    *[_exec(tc) for tc in assistant_msg.tool_calls]
-                )
-                # masukkan hasil ke messages
-                for tc, out in zip(assistant_msg.tool_calls, results):
-                    messages.append(
-                        {
-                            "role": "tool",
-                            "tool_call_id": tc.id,
-                            "name": tc.function.name,
-                            "content": out,
-                        }
+                try:
+                    return await asyncio.wait_for(
+                        self.call_tool(fname, args), timeout=TOOL_TIMEOUT_SEC
                     )
+                except Exception as e:
+                    logger.error(f"[{trace_id}] tool {fname} error: {e}")
+                    return f"Error executing {fname}: {e}"
 
-            if not final_answer:
-                logger.warning(f"[{trace_id}] Batas {max_turns} turn tercapai.")
-                final_answer = (
-                    "Maaf, saya belum bisa menyelesaikan permintaan dalam batas waktu."
+            results = await asyncio.gather(
+                *[exec_tool(tc) for tc in assistant_msg.tool_calls]
+            )
+            for tc, out in zip(assistant_msg.tool_calls, results):
+                messages.append(
+                    {
+                        "role": "tool",
+                        "tool_call_id": tc.id,
+                        "name": tc.function.name,
+                        "content": out,
+                    }
                 )
 
-        finally:
-            answer_to_save = final_answer or "Maaf, terjadi kegagalan internal."
-            # commit memori apa pun hasilnya
-            await self.memory_mgr.add_conversation(
-                [
-                    {"role": "user", "content": query},
-                    {"role": "assistant", "content": answer_to_save},
-                ],
-                user_id=user_id,
+        if not final_answer:
+            logger.warning(f"[{trace_id}] max turns reached without final answer.")
+            final_answer = (
+                "Maaf, saya belum bisa menyelesaikan permintaan dalam batas waktu."
             )
 
-        return answer_to_save
+        return final_answer
