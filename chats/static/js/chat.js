@@ -11,9 +11,12 @@ document.addEventListener("DOMContentLoaded", () => {
   function appendMessage(text, sender) {
     const msgDiv = document.createElement("div");
     msgDiv.classList.add("message", sender);
+
+    // gunakan formatChatText untuk menghasilkan HTML terstruktur
     const bubble = document.createElement("div");
     bubble.classList.add("text");
-    bubble.textContent = text;
+    bubble.innerHTML = window.formatChatText(text);
+
     msgDiv.appendChild(bubble);
     chatWindow.appendChild(msgDiv);
     chatWindow.scrollTop = chatWindow.scrollHeight;

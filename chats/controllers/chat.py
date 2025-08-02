@@ -47,48 +47,6 @@ async def chat():
         return jsonify({"error": "Internal server error"}), 500
 
 
-@chat_bp.route("/upload", methods=["POST"])
-async def upload():
-    # Ambil instance MCPClient di dalam function
-    mcp_client = current_app.extensions["mcp_client"]
-
-    if "file" not in request.files:
-        return jsonify({"error": "No file uploaded"}), 400
-
-    file = request.files["file"]
-    if file.filename == "" or not allowed_file(file.filename):  # type:ignore
-        return jsonify({"error": "Invalid file type"}), 400
-
-    filename = secure_filename(file.filename)  # type:ignore
-    upload_folder = current_app.config.get("UPLOAD_FOLDER", "/tmp")
-    save_path = os.path.join(upload_folder, filename)
-
-    try:
-        os.makedirs(upload_folder, exist_ok=True)
-        file.save(save_path)
-    except Exception as e:
-        logger.error(f"Gagal menyimpan file: {e}", exc_info=True)
-        return jsonify({"error": "Cannot save file"}), 500
-
-    args = {
-        "filename": filename,
-        "pelanggan": request.form.get("pelanggan"),
-        "project": request.form.get("project"),
-        "tahun": request.form.get("tahun"),
-    }
-
-    # Pastikan terhubung sebelum ingest
-    if not mcp_client.is_connected():
-        await mcp_client.connect()
-
-    try:
-        result = await mcp_client.call_tool("add_kak_tor_knowledge", args)
-        return jsonify({"status": "success", "ingest": result})
-    except Exception as e:
-        logger.error(f"Ingest error: {e}", exc_info=True)
-        return jsonify({"error": "Failed to ingest document"}), 500
-
-
 mcp_control_bp = Blueprint("mcp_control", __name__)
 logger = get_logger(__name__)
 

@@ -281,10 +281,12 @@ class MCPClient:
         messages = [
             {
                 "role": m["role"],
-                "content": truncate_by_tokens(m["content"], max_tokens=150),
+                "content": truncate_by_tokens(text=m["content"], max_tokens=150),
             }
             for m in history
         ]
+        # debug
+        logger.info(f"Short-term memory: {messages}")
 
         # 2) Append user message
         messages.append({"role": "user", "content": query})
@@ -309,7 +311,7 @@ class MCPClient:
         if intent == "generate_document":
             answer = await self._run_docgen(trace, query, user_id, max_turns)
         else:
-            answer = await self._run_other(trace, messages, user_id, max_turns)
+            answer = await self._run_other(query, trace, messages, user_id, max_turns)
 
         # 5) Save assistant response
         self._save_short_term(user_id, "assistant", answer)
@@ -380,6 +382,7 @@ class MCPClient:
 
     async def _run_other(
         self,
+        query: str,
         trace_id: str,
         messages: List[Dict[str, str]],
         user_id: str,
@@ -391,9 +394,12 @@ class MCPClient:
                 messages[-1]["content"], limit=5
             )
             mem_block = (
-                "\n".join(f"- {truncate_by_tokens(m)}" for m in raw_mems)
+                "\n".join(f"- {truncate_by_tokens(text=m)}" for m in raw_mems)
                 or "[Tidak ada]"
             )
+            # debug
+            logger.info(f"mem0 search: {mem_block}")
+
             system_mem = {
                 "role": "system",
                 "content": f"Memori historis relevan:\n{mem_block}\n\nGunakan memori di atas jika membantu.",
@@ -455,5 +461,13 @@ class MCPClient:
             final_answer = (
                 "Maaf, saya belum bisa menyelesaikan permintaan dalam batas waktu."
             )
+
+        await self.memory_mgr.add_conversation(
+            [
+                {"role": "user", "content": query},
+                {"role": "assistant", "content": final_answer},
+            ],
+            user_id=user_id,
+        )
 
         return final_answer

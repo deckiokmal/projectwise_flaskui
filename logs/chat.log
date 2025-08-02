@@ -7,3 +7,28 @@
 2025-08-02 00:18:26,109 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
 2025-08-02 00:19:25,718 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
 2025-08-02 00:19:33,138 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-02 00:31:05,644 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-02 00:31:31,874 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-02 00:33:44,219 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-02 00:33:56,232 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-02 00:34:25,674 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-02 00:34:37,129 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-02 00:36:00,961 - chats.controllers.chat - ERROR - Error saat memproses chat: Logger.info() missing 1 required positional argument: 'msg'
+Traceback (most recent call last):
+  File "D:\1. PROJECTS\projectwise_flaskui\chats\controllers\chat.py", line 43, in chat
+    response = await mcp_client.process_query(message)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\1. PROJECTS\projectwise_flaskui\services\mcp_client.py", line 289, in process_query
+    logger.info(f"[{trace}] Short-term memory: {messages}")
+    ^^^^^^^^^^^^^
+TypeError: Logger.info() missing 1 required positional argument: 'msg'
+2025-08-02 00:37:38,186 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-02 00:37:54,426 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-02 00:54:12,754 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-02 00:54:20,616 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-02 01:09:22,082 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-02 01:11:06,590 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-02 01:11:36,057 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-02 01:11:47,623 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-02 01:11:56,081 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log
+2025-08-02 03:31:58,477 - chats.controllers.chat - DEBUG - [Logger] Initialized 'chats.controllers.chat', output → D:\1. PROJECTS\projectwise_flaskui\logs\chat.log

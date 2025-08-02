@@ -42,3 +42,366 @@
 2025-08-02 00:19:53,260 - chats.base - INFO - Connected
 2025-08-02 00:19:58,024 - chats.base - INFO - Connected
 2025-08-02 00:20:19,776 - chats.base - INFO - Connected
+2025-08-02 00:26:51,257 - chats.base - INFO - Connected
+2025-08-02 00:28:27,978 - chats.base - INFO - Connected
+2025-08-02 00:31:21,162 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 00:31:21,162 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 00:31:21,997 - chats.base - INFO - MCPClient instance created
+2025-08-02 00:31:21,999 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 00:31:39,219 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 00:31:39,219 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 00:31:39,744 - chats.base - INFO - MCPClient instance created
+2025-08-02 00:31:39,746 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 00:33:50,475 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 00:33:50,475 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 00:33:50,997 - chats.base - INFO - MCPClient instance created
+2025-08-02 00:33:50,999 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 00:34:05,635 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 00:34:05,635 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 00:34:06,239 - chats.base - INFO - MCPClient instance created
+2025-08-02 00:34:06,241 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 00:34:33,416 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 00:34:33,416 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 00:34:34,700 - chats.base - INFO - MCPClient instance created
+2025-08-02 00:34:34,704 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 00:34:45,004 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 00:34:45,004 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 00:34:45,574 - chats.base - INFO - MCPClient instance created
+2025-08-02 00:34:45,577 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 00:36:00,928 - chats.base - INFO - Connected
+2025-08-02 00:37:43,964 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 00:37:43,964 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 00:37:44,463 - chats.base - INFO - MCPClient instance created
+2025-08-02 00:37:44,465 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 00:38:02,228 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 00:38:02,228 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 00:38:02,902 - chats.base - INFO - MCPClient instance created
+2025-08-02 00:38:02,905 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 00:39:38,751 - chats.base - INFO - Connected
+2025-08-02 00:40:06,340 - chats.base - INFO - Connected
+2025-08-02 00:51:43,380 - chats.base - INFO - Connected
+2025-08-02 00:51:43,457 - chats.base - INFO - Connected
+2025-08-02 00:51:43,462 - chats.base - INFO - Connected
+2025-08-02 00:53:45,035 - chats.base - INFO - Connected
+2025-08-02 00:53:45,073 - chats.base - INFO - Connected
+2025-08-02 00:53:45,075 - chats.base - INFO - Connected
+2025-08-02 00:54:18,925 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 00:54:18,925 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 00:54:19,336 - chats.base - INFO - MCPClient instance created
+2025-08-02 00:54:19,338 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 00:54:27,515 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 00:54:27,515 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 00:54:28,233 - chats.base - INFO - MCPClient instance created
+2025-08-02 00:54:28,238 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 00:54:31,394 - chats.base - INFO - Connected
+2025-08-02 00:54:31,444 - chats.base - INFO - Connected
+2025-08-02 00:54:31,446 - chats.base - INFO - Connected
+2025-08-02 00:57:33,004 - chats.base - INFO - Connected
+2025-08-02 00:57:33,042 - chats.base - INFO - Connected
+2025-08-02 00:57:33,044 - chats.base - INFO - Connected
+2025-08-02 00:57:35,794 - chats.base - INFO - Connected
+2025-08-02 00:57:35,812 - chats.base - INFO - Connected
+2025-08-02 00:57:35,814 - chats.base - INFO - Connected
+2025-08-02 00:58:34,249 - chats.base - INFO - Connected
+2025-08-02 00:58:34,275 - chats.base - INFO - Connected
+2025-08-02 00:58:34,277 - chats.base - INFO - Connected
+2025-08-02 00:58:34,301 - chats.base - INFO - Connected
+2025-08-02 01:00:06,744 - chats.base - INFO - Connected
+2025-08-02 01:00:06,783 - chats.base - INFO - Connected
+2025-08-02 01:00:06,788 - chats.base - INFO - Connected
+2025-08-02 01:00:06,811 - chats.base - INFO - Connected
+2025-08-02 01:00:59,522 - chats.base - INFO - Connected
+2025-08-02 01:00:59,568 - chats.base - INFO - Connected
+2025-08-02 01:00:59,570 - chats.base - INFO - Connected
+2025-08-02 01:00:59,571 - chats.base - INFO - Connected
+2025-08-02 01:00:59,593 - chats.base - INFO - Connected
+2025-08-02 01:01:04,177 - chats.base - INFO - Connected
+2025-08-02 01:01:23,581 - chats.base - INFO - Connected
+2025-08-02 01:04:57,857 - chats.base - INFO - Connected
+2025-08-02 01:05:14,258 - chats.base - INFO - Connected
+2025-08-02 01:05:14,287 - chats.base - INFO - Connected
+2025-08-02 01:05:14,289 - chats.base - INFO - Connected
+2025-08-02 01:05:14,291 - chats.base - INFO - Connected
+2025-08-02 01:05:14,309 - chats.base - INFO - Connected
+2025-08-02 01:05:19,550 - chats.base - INFO - Connected
+2025-08-02 01:05:48,685 - chats.base - INFO - Connected
+2025-08-02 01:06:08,502 - chats.base - INFO - Connected
+2025-08-02 01:06:26,150 - chats.base - INFO - Connected
+2025-08-02 01:07:09,801 - chats.base - INFO - Connected
+2025-08-02 01:07:30,969 - chats.base - INFO - Connected
+2025-08-02 01:09:35,337 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 01:09:35,337 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 01:09:36,297 - chats.base - INFO - MCPClient instance created
+2025-08-02 01:09:36,299 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 01:11:12,702 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 01:11:12,702 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 01:11:13,308 - chats.base - INFO - MCPClient instance created
+2025-08-02 01:11:13,310 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 01:11:53,996 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 01:11:53,996 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 01:11:54,607 - chats.base - INFO - MCPClient instance created
+2025-08-02 01:11:54,609 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 01:12:02,684 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 01:12:02,684 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 01:12:03,239 - chats.base - INFO - MCPClient instance created
+2025-08-02 01:12:03,241 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 01:13:19,562 - chats.base - INFO - Connected
+2025-08-02 01:13:19,616 - chats.base - INFO - Connected
+2025-08-02 01:13:19,616 - chats.base - INFO - Connected
+2025-08-02 01:13:19,617 - chats.base - INFO - Connected
+2025-08-02 01:13:19,760 - chats.base - INFO - Connected
+2025-08-02 01:13:39,565 - chats.base - INFO - Connected
+2025-08-02 01:14:13,429 - chats.base - INFO - Connected
+2025-08-02 01:15:04,392 - chats.base - INFO - Connected
+2025-08-02 01:16:20,653 - chats.base - INFO - Connected
+2025-08-02 01:17:59,891 - chats.base - INFO - Connected
+2025-08-02 01:19:04,935 - chats.base - INFO - Connected
+2025-08-02 01:20:37,929 - chats.base - INFO - Connected
+2025-08-02 01:27:37,855 - chats.base - INFO - Connected
+2025-08-02 01:27:37,914 - chats.base - INFO - Connected
+2025-08-02 01:27:37,915 - chats.base - INFO - Connected
+2025-08-02 01:27:37,920 - chats.base - INFO - Connected
+2025-08-02 01:27:37,920 - chats.base - INFO - Connected
+2025-08-02 01:27:38,011 - chats.base - INFO - Connected
+2025-08-02 01:28:29,433 - chats.base - INFO - Connected
+2025-08-02 01:30:24,533 - chats.base - INFO - Connected
+2025-08-02 01:30:26,789 - chats.base - INFO - Connected
+2025-08-02 01:30:29,187 - chats.base - INFO - Connected
+2025-08-02 01:30:29,232 - chats.base - INFO - Connected
+2025-08-02 01:30:29,249 - chats.base - INFO - Connected
+2025-08-02 01:30:29,262 - chats.base - INFO - Connected
+2025-08-02 01:30:29,263 - chats.base - INFO - Connected
+2025-08-02 01:30:29,285 - chats.base - INFO - Connected
+2025-08-02 02:37:55,245 - chats.base - INFO - Connected
+2025-08-02 02:37:55,319 - chats.base - INFO - Connected
+2025-08-02 02:37:55,320 - chats.base - INFO - Connected
+2025-08-02 02:37:55,323 - chats.base - INFO - Connected
+2025-08-02 02:37:55,325 - chats.base - INFO - Connected
+2025-08-02 02:37:55,353 - chats.base - INFO - Connected
+2025-08-02 02:50:42,055 - chats.base - INFO - Connected
+2025-08-02 02:50:42,087 - chats.base - INFO - Connected
+2025-08-02 02:50:42,088 - chats.base - INFO - Connected
+2025-08-02 02:50:42,089 - chats.base - INFO - Connected
+2025-08-02 02:50:42,093 - chats.base - INFO - Connected
+2025-08-02 02:50:42,124 - chats.base - INFO - Connected
+2025-08-02 02:51:39,762 - chats.base - INFO - Connected
+2025-08-02 02:51:39,814 - chats.base - INFO - Connected
+2025-08-02 02:51:39,814 - chats.base - INFO - Connected
+2025-08-02 02:51:39,815 - chats.base - INFO - Connected
+2025-08-02 02:51:39,820 - chats.base - INFO - Connected
+2025-08-02 02:51:39,843 - chats.base - INFO - Connected
+2025-08-02 02:52:17,905 - chats.base - INFO - Connected
+2025-08-02 02:54:02,737 - chats.base - INFO - Connected
+2025-08-02 02:58:21,296 - chats.base - INFO - Connected
+2025-08-02 02:58:21,328 - chats.base - INFO - Connected
+2025-08-02 02:58:21,333 - chats.base - INFO - Connected
+2025-08-02 02:58:21,338 - chats.base - INFO - Connected
+2025-08-02 02:58:21,342 - chats.base - INFO - Connected
+2025-08-02 02:58:21,370 - chats.base - INFO - Connected
+2025-08-02 02:58:36,620 - chats.base - INFO - Connected
+2025-08-02 03:03:10,516 - chats.base - INFO - Connected
+2025-08-02 03:04:20,491 - chats.base - INFO - Connected
+2025-08-02 03:14:42,775 - chats.base - INFO - Connected
+2025-08-02 03:14:46,324 - chats.base - INFO - Connected
+2025-08-02 03:18:50,796 - chats.base - INFO - Connected
+2025-08-02 03:18:50,870 - chats.base - INFO - Connected
+2025-08-02 03:18:50,889 - chats.base - INFO - Connected
+2025-08-02 03:18:50,890 - chats.base - INFO - Connected
+2025-08-02 03:18:50,894 - chats.base - INFO - Connected
+2025-08-02 03:18:50,898 - chats.base - INFO - Connected
+2025-08-02 03:18:50,902 - chats.base - INFO - Connected
+2025-08-02 03:18:51,119 - chats.base - INFO - Connected
+2025-08-02 03:18:51,136 - chats.base - INFO - Connected
+2025-08-02 03:21:06,927 - chats.base - INFO - Connected
+2025-08-02 03:21:06,971 - chats.base - INFO - Connected
+2025-08-02 03:21:06,976 - chats.base - INFO - Connected
+2025-08-02 03:21:06,992 - chats.base - INFO - Connected
+2025-08-02 03:21:07,001 - chats.base - INFO - Connected
+2025-08-02 03:21:07,001 - chats.base - INFO - Connected
+2025-08-02 03:21:07,007 - chats.base - INFO - Connected
+2025-08-02 03:21:07,167 - chats.base - INFO - Connected
+2025-08-02 03:21:07,185 - chats.base - INFO - Connected
+2025-08-02 03:21:41,458 - chats.base - INFO - Connected
+2025-08-02 03:21:41,494 - chats.base - INFO - Connected
+2025-08-02 03:21:41,504 - chats.base - INFO - Connected
+2025-08-02 03:21:41,518 - chats.base - INFO - Connected
+2025-08-02 03:21:41,522 - chats.base - INFO - Connected
+2025-08-02 03:21:41,524 - chats.base - INFO - Connected
+2025-08-02 03:21:41,529 - chats.base - INFO - Connected
+2025-08-02 03:21:41,611 - chats.base - INFO - Connected
+2025-08-02 03:21:41,627 - chats.base - INFO - Connected
+2025-08-02 03:21:43,851 - chats.base - INFO - Connected
+2025-08-02 03:21:43,888 - chats.base - INFO - Connected
+2025-08-02 03:21:43,895 - chats.base - INFO - Connected
+2025-08-02 03:21:43,898 - chats.base - INFO - Connected
+2025-08-02 03:21:43,905 - chats.base - INFO - Connected
+2025-08-02 03:21:43,907 - chats.base - INFO - Connected
+2025-08-02 03:21:43,908 - chats.base - INFO - Connected
+2025-08-02 03:21:43,963 - chats.base - INFO - Connected
+2025-08-02 03:21:43,975 - chats.base - INFO - Connected
+2025-08-02 03:22:57,776 - chats.base - INFO - Connected
+2025-08-02 03:22:57,819 - chats.base - INFO - Connected
+2025-08-02 03:22:57,830 - chats.base - INFO - Connected
+2025-08-02 03:22:57,831 - chats.base - INFO - Connected
+2025-08-02 03:22:57,835 - chats.base - INFO - Connected
+2025-08-02 03:22:57,837 - chats.base - INFO - Connected
+2025-08-02 03:22:57,943 - chats.base - INFO - Connected
+2025-08-02 03:22:57,955 - chats.base - INFO - Connected
+2025-08-02 03:22:57,969 - chats.base - INFO - Connected
+2025-08-02 03:23:02,487 - chats.base - INFO - Connected
+2025-08-02 03:23:02,516 - chats.base - INFO - Connected
+2025-08-02 03:23:02,518 - chats.base - INFO - Connected
+2025-08-02 03:23:02,532 - chats.base - INFO - Connected
+2025-08-02 03:23:02,533 - chats.base - INFO - Connected
+2025-08-02 03:23:02,537 - chats.base - INFO - Connected
+2025-08-02 03:23:02,568 - chats.base - INFO - Connected
+2025-08-02 03:23:02,581 - chats.base - INFO - Connected
+2025-08-02 03:23:02,592 - chats.base - INFO - Connected
+2025-08-02 03:24:09,835 - chats.base - INFO - Connected
+2025-08-02 03:24:09,895 - chats.base - INFO - Connected
+2025-08-02 03:24:09,902 - chats.base - INFO - Connected
+2025-08-02 03:24:09,908 - chats.base - INFO - Connected
+2025-08-02 03:24:09,910 - chats.base - INFO - Connected
+2025-08-02 03:24:09,914 - chats.base - INFO - Connected
+2025-08-02 03:24:09,960 - chats.base - INFO - Connected
+2025-08-02 03:24:09,977 - chats.base - INFO - Connected
+2025-08-02 03:24:09,992 - chats.base - INFO - Connected
+2025-08-02 03:24:11,007 - chats.base - INFO - Connected
+2025-08-02 03:24:11,041 - chats.base - INFO - Connected
+2025-08-02 03:24:11,056 - chats.base - INFO - Connected
+2025-08-02 03:24:11,062 - chats.base - INFO - Connected
+2025-08-02 03:24:11,066 - chats.base - INFO - Connected
+2025-08-02 03:24:11,068 - chats.base - INFO - Connected
+2025-08-02 03:24:11,108 - chats.base - INFO - Connected
+2025-08-02 03:24:11,129 - chats.base - INFO - Connected
+2025-08-02 03:24:11,143 - chats.base - INFO - Connected
+2025-08-02 03:24:11,759 - chats.base - INFO - Connected
+2025-08-02 03:24:11,800 - chats.base - INFO - Connected
+2025-08-02 03:24:11,804 - chats.base - INFO - Connected
+2025-08-02 03:24:11,805 - chats.base - INFO - Connected
+2025-08-02 03:24:11,806 - chats.base - INFO - Connected
+2025-08-02 03:24:11,808 - chats.base - INFO - Connected
+2025-08-02 03:24:11,848 - chats.base - INFO - Connected
+2025-08-02 03:24:11,860 - chats.base - INFO - Connected
+2025-08-02 03:24:11,905 - chats.base - INFO - Connected
+2025-08-02 03:24:12,376 - chats.base - INFO - Connected
+2025-08-02 03:24:12,474 - chats.base - INFO - Connected
+2025-08-02 03:24:12,474 - chats.base - INFO - Connected
+2025-08-02 03:24:12,478 - chats.base - INFO - Connected
+2025-08-02 03:24:12,482 - chats.base - INFO - Connected
+2025-08-02 03:24:12,485 - chats.base - INFO - Connected
+2025-08-02 03:24:12,514 - chats.base - INFO - Connected
+2025-08-02 03:24:12,527 - chats.base - INFO - Connected
+2025-08-02 03:24:12,540 - chats.base - INFO - Connected
+2025-08-02 03:24:13,019 - chats.base - INFO - Connected
+2025-08-02 03:24:13,047 - chats.base - INFO - Connected
+2025-08-02 03:24:13,049 - chats.base - INFO - Connected
+2025-08-02 03:24:13,050 - chats.base - INFO - Connected
+2025-08-02 03:24:13,051 - chats.base - INFO - Connected
+2025-08-02 03:24:13,053 - chats.base - INFO - Connected
+2025-08-02 03:24:13,078 - chats.base - INFO - Connected
+2025-08-02 03:24:13,087 - chats.base - INFO - Connected
+2025-08-02 03:24:13,098 - chats.base - INFO - Connected
+2025-08-02 03:24:13,714 - chats.base - INFO - Connected
+2025-08-02 03:24:13,745 - chats.base - INFO - Connected
+2025-08-02 03:24:13,747 - chats.base - INFO - Connected
+2025-08-02 03:24:13,751 - chats.base - INFO - Connected
+2025-08-02 03:24:13,752 - chats.base - INFO - Connected
+2025-08-02 03:24:13,755 - chats.base - INFO - Connected
+2025-08-02 03:24:13,777 - chats.base - INFO - Connected
+2025-08-02 03:24:13,786 - chats.base - INFO - Connected
+2025-08-02 03:24:13,795 - chats.base - INFO - Connected
+2025-08-02 03:24:15,074 - chats.base - INFO - Connected
+2025-08-02 03:24:15,101 - chats.base - INFO - Connected
+2025-08-02 03:24:15,102 - chats.base - INFO - Connected
+2025-08-02 03:24:15,105 - chats.base - INFO - Connected
+2025-08-02 03:24:15,107 - chats.base - INFO - Connected
+2025-08-02 03:24:15,108 - chats.base - INFO - Connected
+2025-08-02 03:24:15,133 - chats.base - INFO - Connected
+2025-08-02 03:24:15,141 - chats.base - INFO - Connected
+2025-08-02 03:24:15,150 - chats.base - INFO - Connected
+2025-08-02 03:25:01,272 - chats.base - INFO - Connected
+2025-08-02 03:25:01,309 - chats.base - INFO - Connected
+2025-08-02 03:25:01,315 - chats.base - INFO - Connected
+2025-08-02 03:25:01,316 - chats.base - INFO - Connected
+2025-08-02 03:25:01,317 - chats.base - INFO - Connected
+2025-08-02 03:25:01,318 - chats.base - INFO - Connected
+2025-08-02 03:25:01,346 - chats.base - INFO - Connected
+2025-08-02 03:25:01,355 - chats.base - INFO - Connected
+2025-08-02 03:25:01,365 - chats.base - INFO - Connected
+2025-08-02 03:25:03,168 - chats.base - INFO - Connected
+2025-08-02 03:25:03,192 - chats.base - INFO - Connected
+2025-08-02 03:25:03,201 - chats.base - INFO - Connected
+2025-08-02 03:25:03,203 - chats.base - INFO - Connected
+2025-08-02 03:25:03,204 - chats.base - INFO - Connected
+2025-08-02 03:25:03,206 - chats.base - INFO - Connected
+2025-08-02 03:25:03,238 - chats.base - INFO - Connected
+2025-08-02 03:25:03,248 - chats.base - INFO - Connected
+2025-08-02 03:25:03,258 - chats.base - INFO - Connected
+2025-08-02 03:25:03,787 - chats.base - INFO - Connected
+2025-08-02 03:25:03,811 - chats.base - INFO - Connected
+2025-08-02 03:25:03,820 - chats.base - INFO - Connected
+2025-08-02 03:25:03,823 - chats.base - INFO - Connected
+2025-08-02 03:25:03,824 - chats.base - INFO - Connected
+2025-08-02 03:25:03,828 - chats.base - INFO - Connected
+2025-08-02 03:25:03,854 - chats.base - INFO - Connected
+2025-08-02 03:25:03,865 - chats.base - INFO - Connected
+2025-08-02 03:25:03,873 - chats.base - INFO - Connected
+2025-08-02 03:25:07,812 - chats.base - INFO - Connected
+2025-08-02 03:25:07,844 - chats.base - INFO - Connected
+2025-08-02 03:25:07,849 - chats.base - INFO - Connected
+2025-08-02 03:25:07,850 - chats.base - INFO - Connected
+2025-08-02 03:25:07,852 - chats.base - INFO - Connected
+2025-08-02 03:25:07,855 - chats.base - INFO - Connected
+2025-08-02 03:25:07,879 - chats.base - INFO - Connected
+2025-08-02 03:25:07,887 - chats.base - INFO - Connected
+2025-08-02 03:25:07,896 - chats.base - INFO - Connected
+2025-08-02 03:25:20,574 - chats.base - INFO - Connected
+2025-08-02 03:26:43,267 - chats.base - INFO - Connected
+2025-08-02 03:26:43,316 - chats.base - INFO - Connected
+2025-08-02 03:26:43,317 - chats.base - INFO - Connected
+2025-08-02 03:26:43,319 - chats.base - INFO - Connected
+2025-08-02 03:26:43,340 - chats.base - INFO - Connected
+2025-08-02 03:26:43,348 - chats.base - INFO - Connected
+2025-08-02 03:28:49,833 - chats.base - INFO - Connected
+2025-08-02 03:28:49,876 - chats.base - INFO - Connected
+2025-08-02 03:28:49,884 - chats.base - INFO - Connected
+2025-08-02 03:28:49,884 - chats.base - INFO - Connected
+2025-08-02 03:28:49,917 - chats.base - INFO - Connected
+2025-08-02 03:28:49,926 - chats.base - INFO - Connected
+2025-08-02 03:28:53,506 - chats.base - INFO - Connected
+2025-08-02 03:28:53,532 - chats.base - INFO - Connected
+2025-08-02 03:28:53,533 - chats.base - INFO - Connected
+2025-08-02 03:28:53,534 - chats.base - INFO - Connected
+2025-08-02 03:28:53,563 - chats.base - INFO - Connected
+2025-08-02 03:28:53,573 - chats.base - INFO - Connected
+2025-08-02 03:28:54,289 - chats.base - INFO - Connected
+2025-08-02 03:28:54,311 - chats.base - INFO - Connected
+2025-08-02 03:28:54,312 - chats.base - INFO - Connected
+2025-08-02 03:28:54,317 - chats.base - INFO - Connected
+2025-08-02 03:28:54,338 - chats.base - INFO - Connected
+2025-08-02 03:28:54,347 - chats.base - INFO - Connected
+2025-08-02 03:29:42,372 - chats.base - INFO - Connected
+2025-08-02 03:29:42,401 - chats.base - INFO - Connected
+2025-08-02 03:29:42,405 - chats.base - INFO - Connected
+2025-08-02 03:29:42,407 - chats.base - INFO - Connected
+2025-08-02 03:29:42,429 - chats.base - INFO - Connected
+2025-08-02 03:29:42,438 - chats.base - INFO - Connected
+2025-08-02 03:29:43,985 - chats.base - INFO - Connected
+2025-08-02 03:29:44,008 - chats.base - INFO - Connected
+2025-08-02 03:29:44,009 - chats.base - INFO - Connected
+2025-08-02 03:29:44,012 - chats.base - INFO - Connected
+2025-08-02 03:29:44,034 - chats.base - INFO - Connected
+2025-08-02 03:29:44,042 - chats.base - INFO - Connected
+2025-08-02 03:32:08,840 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 03:32:08,840 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 03:32:09,527 - chats.base - INFO - MCPClient instance created
+2025-08-02 03:32:09,529 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 03:35:35,396 - chats.base - INFO - Connected
+2025-08-02 03:35:35,442 - chats.base - INFO - Connected
+2025-08-02 03:35:35,445 - chats.base - INFO - Connected
+2025-08-02 03:38:28,272 - chats.base - INFO - Connected
+2025-08-02 03:38:28,304 - chats.base - INFO - Connected
+2025-08-02 03:38:28,306 - chats.base - INFO - Connected
+2025-08-02 03:38:59,981 - chats.base - INFO - Connected
+2025-08-02 03:39:19,636 - chats.base - INFO - Connected

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}ProjectWise Chat{% endblock %}</title>
+
+    <!-- CSS global -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+    {% block head %}{% endblock %}
+</head>
+
+<body>
+    <div class="app-container">
+
+        <!-- Sidebar kiri -->
+        <aside class="sidebar">
+            <div class="sidebar__brand">
+                {% block sidebar_brand %}Projectwise{% endblock %}
+            </div>
+            <nav class="sidebar__nav">
+                {% block sidebar_nav %}
+                <ul>
+                    <li class="active"><a href="#">New chat</a></li>
+                    <li><a href="#">Search chats</a></li>
+                    <li><a href="#">Library</a></li>
+                    <li><a href="#">Codex</a></li>
+                </ul>
+                {% endblock %}
+            </nav>
+            <div class="sidebar__footer">
+                {% block sidebar_footer %}© 2025 ProjectWise{% endblock %}
+            </div>
+        </aside>
+
+        <!-- Konten utama/chat di kanan -->
+        <main class="main">
+            {% block body %}{% endblock %}
+        </main>
+
+    </div>
+
+    <!-- JS global -->
+    <script src="{{ url_for('static', filename='js/textFormatter.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    {% block scripts %}{% endblock %}
+</body>
+
+</html>

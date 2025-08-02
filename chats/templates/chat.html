@@ -1,0 +1,64 @@
+{# Partial: chat interface + upload panel #}
+
+<!-- Header MCP control -->
+<header>
+    <div class="mcp-switch">
+        <button id="mcp-connect-btn" class="btn btn--connect">Connect</button>
+        <button id="mcp-disconnect-btn" class="btn btn--disconnect" disabled>Disconnect</button>
+        <span id="mcp-status" class="status">Status: <strong>Disconnected</strong></span>
+    </div>
+</header>
+
+<!-- Chat & Panel -->
+<section class="content">
+    <!-- Chat window -->
+    <div id="chat-window" class="chat__window"></div>
+
+    <!-- Input area -->
+    <div class="input-area">
+        <input type="text" id="user-message" placeholder="Ketik pesan..." />
+        <div class="input-buttons">
+            <button id="send-btn"><i class="fa-solid fa-paper-plane"></i></button>
+            <button class="doc-generator" id="open-upload-btn">
+                <i class="fa-solid fa-file-invoice"></i> Upload KAK/TOR
+            </button>
+        </div>
+    </div>
+
+    <!-- Manual check status -->
+    <div class="panel__status-check">
+        <label for="job-id-input">Job ID:</label>
+        <input type="text" id="job-id-input" placeholder="Masukkan Job ID…" />
+        <button id="check-status-btn" class="btn btn--check">Cek Status</button>
+        <div id="status-result" class="panel__result"></div>
+    </div>
+</section>
+
+<!-- Modal Upload -->
+<div id="upload-modal" class="modal hidden">
+    <div class="modal__overlay"></div>
+    <div class="modal__content">
+        <button id="close-upload-btn" class="modal__close">&times;</button>
+        <h2 class="modal__title">Upload KAK/TOR</h2>
+        <form id="upload-form" class="modal__form" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="project_name">Nama Proyek</label>
+                <input type="text" id="project_name" name="project_name" required />
+            </div>
+            <div class="form-group">
+                <label for="pelanggan">Pelanggan</label>
+                <input type="text" id="pelanggan" name="pelanggan" required />
+            </div>
+            <div class="form-group">
+                <label for="tahun">Tahun</label>
+                <input type="number" id="tahun" name="tahun" min="2000" max="2100" required />
+            </div>
+            <div class="form-group">
+                <label for="file">File PDF KAK/TOR</label>
+                <input type="file" id="file" name="file" accept="application/pdf" required />
+            </div>
+            <button type="submit" class="btn btn--submit">Kirim</button>
+        </form>
+        <div id="upload-status" class="modal__status"></div>
+    </div>
+</div>

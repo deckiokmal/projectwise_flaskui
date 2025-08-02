@@ -1,36 +1,67 @@
-<!DOCTYPE html>
-<html lang="id">
+{% extends "base.html" %}
+{% block title %}ProjectWise ChatGPT Clone{% endblock %}
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ProjectWise Chat & MCP Control</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
-</head>
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+{% endblock %}
 
-<body>
-    <div class="container">
-        <header>
-            <h1>ProjectWise Chat</h1>
-            <div class="mcp-switch">
-                <button id="mcp-connect-btn">Connect</button>
-                <button id="mcp-disconnect-btn" disabled>Disconnect</button>
-                <span id="mcp-status">Status: <strong>Disconnected</strong></span>
-            </div>
+{% block body %}
+<div class="app-container">
+    <!-- Sidebar tetap seperti sebelumnya... -->
+
+    <main class="main">
+        <header class="main__header">
+            <h1>Where should we begin?</h1>
         </header>
 
-        <main>
-            <div id="chat-window">
-                <!-- Pesan akan muncul di sini -->
-            </div>
-            <div class="chat-input">
-                <input type="text" id="user-message" placeholder="Ketik pesan..." />
-                <button id="send-btn">Kirim</button>
-            </div>
-        </main>
-    </div>
+        <section class="main__chat">
+            <!-- Pesan akan ter-render di sini -->
+        </section>
 
-    <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
-</body>
+        <footer class="main__input">
+            <form id="chat-form" autocomplete="off">
+                <!-- Baris 1: Text input -->
+                <div class="input-row">
+                    <textarea id="chat-input" name="message" placeholder="Ask anything" autocomplete="off" required
+                        rows="1"></textarea>
+                </div>
 
-</html>
+
+                <!-- Baris 2: Upload + Send -->
+                <div class="input-row input-row--actions">
+                    <!-- Tombol “+” dengan dropdown (drop-up) -->
+                    <div class="upload-dropdown">
+                        <button type="button" id="upload-btn" class="btn btn--icon" title="Upload">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <!-- Menu drop-up -->
+                        <div id="upload-menu" class="upload-menu hidden">
+                            <button type="button" data-type="kak" class="upload-menu__item">
+                                <i class="fa-regular fa-file-lines"></i> Upload KAK
+                            </button>
+                            <button type="button" data-type="product" class="upload-menu__item">
+                                <i class="fa-solid fa-box"></i> Upload Product
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Tombol kirim -->
+                    <button type="submit" class="btn btn--send" title="Send Message">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </div>
+
+
+                <!-- Hidden file input -->
+                <input type="file" id="file-input" name="files" class="hidden" multiple />
+            </form>
+        </footer>
+
+    </main>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+{% endblock %}
