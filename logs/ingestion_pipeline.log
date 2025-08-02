@@ -1,0 +1,4 @@
+2025-08-02 17:27:02,212 - chats.controllers.ingestion_pipeline - DEBUG - [Logger] Initialized 'chats.controllers.ingestion_pipeline', output → D:\1. PROJECTS\projectwise_flaskui\logs\ingestion_pipeline.log
+2025-08-02 17:27:22,588 - chats.controllers.ingestion_pipeline - DEBUG - [Logger] Initialized 'chats.controllers.ingestion_pipeline', output → D:\1. PROJECTS\projectwise_flaskui\logs\ingestion_pipeline.log
+2025-08-02 17:32:03,086 - chats.controllers.ingestion_pipeline - DEBUG - [Logger] Initialized 'chats.controllers.ingestion_pipeline', output → D:\1. PROJECTS\projectwise_flaskui\logs\ingestion_pipeline.log
+2025-08-02 17:45:47,147 - chats.controllers.ingestion_pipeline - DEBUG - [Logger] Initialized 'chats.controllers.ingestion_pipeline', output → D:\1. PROJECTS\projectwise_flaskui\logs\ingestion_pipeline.log

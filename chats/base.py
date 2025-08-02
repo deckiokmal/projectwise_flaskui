@@ -1,9 +1,12 @@
 # your_app/chat/base.py
 
 from flask import Flask
+
 # from flask_sqlalchemy import SQLAlchemy
 from utils.logger import get_logger
-from chats.controllers.chat import chat_bp, mcp_control_bp
+from chats.controllers.chat import chat_bp
+from chats.controllers.mcp_control import mcp_control_bp
+from chats.controllers.ingestion_pipeline import ingestion_bp
 from services.mcp_client import MCPClient
 from config.mcp_settings import MCPSettings
 # from config.flask_settings import FlaskConfig
@@ -35,7 +38,8 @@ def create_app(config_object=None):
     # Register blueprints
     app.register_blueprint(chat_bp)
     app.register_blueprint(mcp_control_bp)
-    logger.info("Blueprints registered: chat, mcp_control")
+    app.register_blueprint(ingestion_bp)
+    logger.info("Blueprints registered!")
 
     @app.before_request
     async def initial_connect_async():

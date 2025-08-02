@@ -738,3 +738,209 @@ jhkh
 - Bekerja di Lintasarta
 2025-08-02 05:13:00,269 - MCPClient - INFO - [dabf4f22] - Turn 1/20
 2025-08-02 05:13:02,993 - MCPClient - INFO - [dabf4f22] Total latency: 5.64s
+2025-08-02 15:22:15,201 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:22:16,603 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:23:12,303 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:23:13,128 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:23:36,353 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:23:38,075 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:24:12,629 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:24:13,703 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:25:19,293 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:25:20,437 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:25:36,111 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:25:37,183 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:26:13,747 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:26:14,816 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:26:38,992 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:26:39,829 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:28:57,696 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:28:58,743 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:29:18,303 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:29:19,082 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:29:45,329 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:29:46,018 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:32:00,406 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:32:01,698 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:32:18,080 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:32:19,084 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:32:30,272 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:32:30,811 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:52:05,134 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:52:05,744 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:52:28,923 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:52:29,638 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:52:48,014 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:52:48,851 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:53:03,377 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:53:04,773 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:53:18,646 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:53:19,394 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:53:33,638 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:53:34,183 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:54:17,789 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:54:18,435 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:55:24,752 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:55:25,468 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:55:39,002 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:55:39,856 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:55:54,674 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:55:55,435 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:56:06,803 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:56:07,388 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:57:08,174 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:57:08,943 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:57:20,697 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:57:21,872 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:57:33,449 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:57:34,270 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:57:50,154 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:57:51,268 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:58:10,108 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:58:11,158 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:58:54,031 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:58:54,744 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 15:59:46,737 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 15:59:47,355 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:04:18,397 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:04:19,297 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:04:37,580 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:04:38,383 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:04:50,496 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:04:51,262 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:05:05,720 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:05:06,494 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:05:23,417 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:05:24,067 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:06:02,063 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:06:03,599 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:06:44,882 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:06:45,665 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:07:01,117 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:07:01,869 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:07:19,982 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:07:20,821 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:07:33,472 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:07:34,116 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:07:56,813 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:07:57,696 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:09:45,975 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:09:47,160 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:10:05,741 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:10:06,446 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:10:34,889 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:10:35,511 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:10:46,773 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:10:47,360 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:11:15,815 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:11:16,529 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:11:41,132 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:11:41,798 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:11:54,819 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:11:55,504 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:12:08,316 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:12:08,888 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:13:06,171 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:13:06,775 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:13:22,443 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:13:23,027 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:13:36,068 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:13:36,779 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:14:03,346 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:14:04,206 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:14:17,670 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:14:18,197 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:15:40,195 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:15:40,879 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:15:52,321 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:15:52,895 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:16:24,170 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:16:24,788 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:16:36,932 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:16:37,509 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:17:00,286 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:17:01,065 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:17:11,581 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:17:12,668 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:17:25,700 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:17:26,428 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:17:37,480 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:17:38,147 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:18:09,147 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:18:09,787 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:18:21,973 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:18:22,563 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:19:33,631 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:19:34,325 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:19:47,616 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:19:48,404 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:20:13,843 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:20:14,433 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:25:11,646 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:25:12,142 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:26:20,778 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:26:21,374 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:48:07,343 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:48:08,024 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:48:23,156 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:48:23,825 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:48:35,814 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:48:36,414 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:51:58,331 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:51:59,152 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:52:37,150 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:52:37,738 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:53:28,063 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:53:28,641 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:53:43,340 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:53:43,993 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:54:03,007 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:54:03,617 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:54:23,759 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:54:24,376 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:54:45,993 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:54:47,353 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:55:04,704 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:55:05,335 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:55:19,331 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:55:19,837 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:57:38,193 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:57:38,855 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:59:42,893 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:59:43,621 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 16:59:55,399 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 16:59:56,097 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 17:00:16,290 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 17:00:16,852 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 17:00:27,352 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 17:00:28,026 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 17:00:41,006 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 17:00:41,539 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 17:01:02,313 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 17:01:03,040 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 17:01:16,948 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 17:01:17,627 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 17:01:55,649 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 17:01:56,285 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 17:02:08,638 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 17:02:09,302 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 17:02:20,522 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 17:02:21,066 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 17:03:19,164 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 17:03:20,111 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 17:05:56,387 - MCPClient - INFO - Available tools: ['heartbeat', 'list_kak_files', 'list_product_files', 'add_product_knowledge', 'add_kak_tor_knowledge', 'summarize_kak_with_llm', 'rag_retrieval', 'list_metadata_entries', 'reset_vector_database', 'reset_and_reingest_all', 'read_project_markdown', 'get_template_placeholders', 'generate_proposal_docx', 'websearch']
+2025-08-02 17:05:56,391 - MCPClient - INFO - keep_alive_loop cancelled
+2025-08-02 17:27:18,589 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 17:27:20,127 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 17:27:30,018 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 17:27:30,951 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 17:27:52,450 - MCPClient - INFO - Available tools: ['heartbeat', 'list_kak_files', 'list_product_files', 'add_product_knowledge', 'add_kak_tor_knowledge', 'summarize_kak_with_llm', 'rag_retrieval', 'list_metadata_entries', 'reset_vector_database', 'reset_and_reingest_all', 'read_project_markdown', 'get_template_placeholders', 'generate_proposal_docx', 'websearch']
+2025-08-02 17:27:52,451 - MCPClient - INFO - keep_alive_loop cancelled
+2025-08-02 17:32:09,705 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 17:32:10,323 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 17:32:13,763 - MCPClient - INFO - Available tools: ['heartbeat', 'list_kak_files', 'list_product_files', 'add_product_knowledge', 'add_kak_tor_knowledge', 'summarize_kak_with_llm', 'rag_retrieval', 'list_metadata_entries', 'reset_vector_database', 'reset_and_reingest_all', 'read_project_markdown', 'get_template_placeholders', 'generate_proposal_docx', 'websearch']
+2025-08-02 17:32:13,764 - MCPClient - INFO - keep_alive_loop cancelled
+2025-08-02 17:45:52,178 - MCPClient - DEBUG - [Logger] Initialized 'MCPClient', output → D:\1. PROJECTS\projectwise_flaskui\logs\MCPClient.log
+2025-08-02 17:45:52,751 - MCPClient - INFO - MCPClient initialized with short-term memory support
+2025-08-02 17:54:54,877 - MCPClient - INFO - Available tools: ['heartbeat', 'list_kak_files', 'list_product_files', 'add_product_knowledge', 'add_kak_tor_knowledge', 'summarize_kak_with_llm', 'rag_retrieval', 'list_metadata_entries', 'reset_vector_database', 'reset_and_reingest_all', 'read_project_markdown', 'get_template_placeholders', 'generate_proposal_docx', 'websearch']
+2025-08-02 17:54:54,878 - MCPClient - INFO - keep_alive_loop cancelled

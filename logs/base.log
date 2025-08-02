@@ -571,3 +571,498 @@
 2025-08-02 05:12:50,116 - chats.base - INFO - Connected
 2025-08-02 05:12:50,120 - chats.base - INFO - Connected
 2025-08-02 05:12:57,346 - chats.base - INFO - Connected
+2025-08-02 15:00:22,383 - chats.base - INFO - Connected
+2025-08-02 15:00:22,522 - chats.base - INFO - Connected
+2025-08-02 15:06:43,986 - chats.base - INFO - Connected
+2025-08-02 15:06:44,073 - chats.base - INFO - Connected
+2025-08-02 15:06:44,091 - chats.base - INFO - Connected
+2025-08-02 15:06:44,092 - chats.base - INFO - Connected
+2025-08-02 15:06:44,094 - chats.base - INFO - Connected
+2025-08-02 15:13:58,553 - chats.base - INFO - Connected
+2025-08-02 15:13:58,609 - chats.base - INFO - Connected
+2025-08-02 15:13:58,611 - chats.base - INFO - Connected
+2025-08-02 15:13:58,614 - chats.base - INFO - Connected
+2025-08-02 15:20:31,971 - chats.base - INFO - Connected
+2025-08-02 15:20:31,999 - chats.base - INFO - Connected
+2025-08-02 15:20:32,001 - chats.base - INFO - Connected
+2025-08-02 15:20:32,002 - chats.base - INFO - Connected
+2025-08-02 15:20:34,024 - chats.base - INFO - Connected
+2025-08-02 15:20:34,071 - chats.base - INFO - Connected
+2025-08-02 15:20:34,072 - chats.base - INFO - Connected
+2025-08-02 15:20:34,074 - chats.base - INFO - Connected
+2025-08-02 15:22:15,245 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:22:15,246 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:22:16,604 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:22:16,608 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:23:12,319 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:23:12,320 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:23:13,129 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:23:13,132 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:23:36,375 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:23:36,376 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:23:38,076 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:23:38,111 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:24:12,674 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:24:12,675 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:24:13,703 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:24:13,707 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:25:19,319 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:25:19,319 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:25:20,438 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:25:20,448 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:25:36,133 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:25:36,133 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:25:37,184 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:25:37,189 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:26:13,769 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:26:13,770 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:26:14,817 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:26:14,820 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:26:39,006 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:26:39,006 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:26:39,830 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:26:39,833 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:28:57,719 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:28:57,719 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:28:58,743 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:28:58,746 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:29:18,319 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:29:18,319 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:29:19,082 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:29:19,086 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:29:45,344 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:29:45,344 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:29:46,019 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:29:46,021 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:32:00,429 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:32:00,429 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:32:01,698 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:32:01,701 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:32:18,097 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:32:18,097 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:32:19,085 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:32:19,089 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:32:30,286 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:32:30,286 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:32:30,812 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:32:30,814 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:52:05,149 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:52:05,150 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:52:05,745 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:52:05,746 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:52:28,941 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:52:28,941 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:52:29,638 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:52:29,641 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:52:48,033 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:52:48,033 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:52:48,852 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:52:48,854 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:53:03,396 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:53:03,396 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:53:04,774 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:53:04,783 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:53:18,662 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:53:18,663 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:53:19,394 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:53:19,397 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:53:33,650 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:53:33,651 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:53:34,183 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:53:34,185 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:54:17,802 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:54:17,802 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:54:18,435 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:54:18,437 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:55:24,765 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:55:24,765 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:55:25,468 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:55:25,472 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:55:39,017 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:55:39,017 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:55:39,856 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:55:39,860 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:55:54,688 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:55:54,688 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:55:55,436 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:55:55,438 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:56:06,816 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:56:06,816 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:56:07,389 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:56:07,391 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:57:08,190 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:57:08,190 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:57:08,943 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:57:08,946 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:57:20,712 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:57:20,712 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:57:21,873 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:57:21,876 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:57:33,468 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:57:33,468 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:57:34,271 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:57:34,273 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:57:50,169 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:57:50,170 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:57:51,269 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:57:51,273 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:58:10,135 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:58:10,135 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:58:11,159 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:58:11,164 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:58:54,048 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:58:54,048 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:58:54,745 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:58:54,747 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 15:59:46,751 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 15:59:46,751 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 15:59:47,356 - chats.base - INFO - MCPClient instance created
+2025-08-02 15:59:47,358 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:04:18,416 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:04:18,416 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:04:19,298 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:04:19,300 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:04:37,594 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:04:37,595 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:04:38,384 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:04:38,386 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:04:50,514 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:04:50,514 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:04:51,263 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:04:51,267 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:05:05,738 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:05:05,738 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:05:06,494 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:05:06,497 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:05:23,437 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:05:23,437 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:05:24,068 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:05:24,070 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:06:02,098 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:06:02,098 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:06:03,600 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:06:03,604 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:06:44,904 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:06:44,905 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:06:45,666 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:06:45,668 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:07:01,131 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:07:01,131 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:07:01,870 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:07:01,872 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:07:20,000 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:07:20,000 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:07:20,821 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:07:20,826 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:07:33,485 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:07:33,485 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:07:34,117 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:07:34,121 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:07:56,837 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:07:56,837 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:07:57,697 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:07:57,701 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:09:45,999 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:09:45,999 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:09:47,161 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:09:47,165 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:10:05,759 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:10:05,759 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:10:06,446 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:10:06,449 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:10:34,903 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:10:34,903 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:10:35,512 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:10:35,513 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:10:46,790 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:10:46,791 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:10:47,361 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:10:47,362 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:11:15,830 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:11:15,830 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:11:16,529 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:11:16,532 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:11:41,145 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:11:41,145 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:11:41,798 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:11:41,802 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:11:54,832 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:11:54,832 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:11:55,504 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:11:55,506 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:12:08,331 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:12:08,331 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:12:08,889 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:12:08,891 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:13:06,187 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:13:06,187 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:13:06,776 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:13:06,777 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:13:22,456 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:13:22,456 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:13:23,028 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:13:23,030 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:13:36,083 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:13:36,084 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:13:36,780 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:13:36,782 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:14:03,361 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:14:03,361 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:14:04,207 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:14:04,212 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:14:17,683 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:14:17,683 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:14:18,198 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:14:18,200 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:15:40,211 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:15:40,211 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:15:40,880 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:15:40,882 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:15:52,334 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:15:52,334 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:15:52,896 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:15:52,898 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:16:24,185 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:16:24,185 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:16:24,789 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:16:24,791 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:16:36,945 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:16:36,945 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:16:37,509 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:16:37,511 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:17:00,302 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:17:00,303 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:17:01,066 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:17:01,068 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:17:11,602 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:17:11,602 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:17:12,668 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:17:12,673 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:17:25,719 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:17:25,719 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:17:26,429 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:17:26,431 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:17:37,493 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:17:37,493 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:17:38,148 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:17:38,150 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:18:09,163 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:18:09,163 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:18:09,788 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:18:09,790 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:18:21,986 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:18:21,986 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:18:22,564 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:18:22,566 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:19:33,646 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:19:33,646 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:19:34,326 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:19:34,329 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:19:47,632 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:19:47,632 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:19:48,409 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:19:48,420 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:20:13,856 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:20:13,857 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:20:14,433 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:20:14,435 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:25:11,660 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:25:11,660 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:25:12,143 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:25:12,145 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:26:20,791 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:26:20,791 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:26:21,375 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:26:21,378 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:48:07,358 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:48:07,358 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:48:08,025 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:48:08,027 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:48:23,168 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:48:23,168 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:48:23,826 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:48:23,827 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:48:35,833 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:48:35,834 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:48:36,415 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:48:36,417 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:51:58,347 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:51:58,347 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:51:59,152 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:51:59,155 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:52:37,164 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:52:37,164 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:52:37,739 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:52:37,741 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:53:28,076 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:53:28,076 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:53:28,642 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:53:28,643 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:53:43,357 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:53:43,357 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:53:43,994 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:53:43,997 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:54:03,023 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:54:03,023 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:54:03,617 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:54:03,619 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:54:23,774 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:54:23,774 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:54:24,376 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:54:24,379 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:54:46,015 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:54:46,016 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:54:47,354 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:54:47,359 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:55:04,719 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:55:04,719 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:55:05,336 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:55:05,338 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:55:19,344 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:55:19,345 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:55:19,838 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:55:19,839 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:57:38,206 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:57:38,206 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:57:38,856 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:57:38,859 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:59:42,910 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:59:42,910 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:59:43,621 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:59:43,624 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 16:59:55,411 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 16:59:55,412 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 16:59:56,097 - chats.base - INFO - MCPClient instance created
+2025-08-02 16:59:56,101 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 17:00:16,302 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 17:00:16,302 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 17:00:16,853 - chats.base - INFO - MCPClient instance created
+2025-08-02 17:00:16,856 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 17:00:27,368 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 17:00:27,368 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 17:00:28,027 - chats.base - INFO - MCPClient instance created
+2025-08-02 17:00:28,029 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 17:00:41,019 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 17:00:41,019 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 17:00:41,540 - chats.base - INFO - MCPClient instance created
+2025-08-02 17:00:41,541 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 17:01:02,326 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 17:01:02,326 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 17:01:03,040 - chats.base - INFO - MCPClient instance created
+2025-08-02 17:01:03,042 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 17:01:16,965 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 17:01:16,965 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 17:01:17,628 - chats.base - INFO - MCPClient instance created
+2025-08-02 17:01:17,630 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 17:01:55,660 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 17:01:55,661 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 17:01:56,285 - chats.base - INFO - MCPClient instance created
+2025-08-02 17:01:56,287 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 17:02:08,652 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 17:02:08,653 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 17:02:09,302 - chats.base - INFO - MCPClient instance created
+2025-08-02 17:02:09,304 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 17:02:20,535 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 17:02:20,535 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 17:02:21,066 - chats.base - INFO - MCPClient instance created
+2025-08-02 17:02:21,068 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 17:03:19,183 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 17:03:19,184 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 17:03:20,111 - chats.base - INFO - MCPClient instance created
+2025-08-02 17:03:20,114 - chats.base - INFO - Blueprints registered: chat, mcp_control
+2025-08-02 17:05:56,388 - chats.base - INFO - Connected
+2025-08-02 17:05:56,732 - chats.base - INFO - Connected
+2025-08-02 17:05:56,742 - chats.base - INFO - Connected
+2025-08-02 17:05:56,747 - chats.base - INFO - Connected
+2025-08-02 17:06:34,771 - chats.base - INFO - Connected
+2025-08-02 17:06:34,830 - chats.base - INFO - Connected
+2025-08-02 17:06:34,850 - chats.base - INFO - Connected
+2025-08-02 17:06:34,853 - chats.base - INFO - Connected
+2025-08-02 17:09:30,667 - chats.base - INFO - Connected
+2025-08-02 17:09:30,748 - chats.base - INFO - Connected
+2025-08-02 17:09:30,751 - chats.base - INFO - Connected
+2025-08-02 17:09:30,752 - chats.base - INFO - Connected
+2025-08-02 17:11:42,375 - chats.base - INFO - Connected
+2025-08-02 17:11:42,449 - chats.base - INFO - Connected
+2025-08-02 17:11:42,452 - chats.base - INFO - Connected
+2025-08-02 17:11:42,455 - chats.base - INFO - Connected
+2025-08-02 17:18:31,452 - chats.base - INFO - Connected
+2025-08-02 17:18:31,485 - chats.base - INFO - Connected
+2025-08-02 17:18:31,489 - chats.base - INFO - Connected
+2025-08-02 17:18:31,492 - chats.base - INFO - Connected
+2025-08-02 17:19:14,820 - chats.base - INFO - Connected
+2025-08-02 17:19:51,642 - chats.base - INFO - Connected
+2025-08-02 17:19:51,743 - chats.base - INFO - Connected
+2025-08-02 17:20:21,134 - chats.base - INFO - Connected
+2025-08-02 17:24:33,704 - chats.base - INFO - Connected
+2025-08-02 17:24:33,753 - chats.base - INFO - Connected
+2025-08-02 17:24:33,756 - chats.base - INFO - Connected
+2025-08-02 17:24:33,758 - chats.base - INFO - Connected
+2025-08-02 17:24:54,555 - chats.base - INFO - Connected
+2025-08-02 17:27:18,624 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 17:27:18,625 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 17:27:20,128 - chats.base - INFO - MCPClient instance created
+2025-08-02 17:27:20,134 - chats.base - INFO - Blueprints registered!
+2025-08-02 17:27:30,042 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 17:27:30,042 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 17:27:30,951 - chats.base - INFO - MCPClient instance created
+2025-08-02 17:27:30,956 - chats.base - INFO - Blueprints registered!
+2025-08-02 17:27:52,450 - chats.base - INFO - Connected
+2025-08-02 17:29:22,946 - chats.base - INFO - Connected
+2025-08-02 17:29:22,958 - chats.base - ERROR - Gagal mengambil status dari MCP Server
+Traceback (most recent call last):
+  File "D:\1. PROJECTS\projectwise_flaskui\chats\controllers\ingestion_pipeline.py", line 76, in proxy_check_status
+    resp.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\1. PROJECTS\projectwise_flaskui\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: http://127.0.0.1:5000/check-status?job_id=0135b5a2-b9ca-490d-b550-367f2d4a8277
+2025-08-02 17:32:09,724 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 17:32:09,725 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 17:32:10,324 - chats.base - INFO - MCPClient instance created
+2025-08-02 17:32:10,327 - chats.base - INFO - Blueprints registered!
+2025-08-02 17:32:13,763 - chats.base - INFO - Connected
+2025-08-02 17:32:13,856 - chats.base - INFO - Connected
+2025-08-02 17:32:13,865 - chats.base - INFO - Connected
+2025-08-02 17:32:13,866 - chats.base - INFO - Connected
+2025-08-02 17:32:43,687 - chats.base - INFO - Connected
+2025-08-02 17:33:45,442 - chats.base - INFO - Connected
+2025-08-02 17:33:50,432 - chats.base - INFO - Connected
+2025-08-02 17:34:15,456 - chats.base - INFO - Connected
+2025-08-02 17:34:20,444 - chats.base - INFO - Connected
+2025-08-02 17:34:22,798 - chats.base - INFO - Connected
+2025-08-02 17:34:22,812 - chats.base - INFO - Connected
+2025-08-02 17:34:22,829 - chats.base - INFO - Connected
+2025-08-02 17:34:22,866 - chats.base - INFO - Connected
+2025-08-02 17:34:25,441 - chats.base - INFO - Connected
+2025-08-02 17:34:30,440 - chats.base - INFO - Connected
+2025-08-02 17:34:35,438 - chats.base - INFO - Connected
+2025-08-02 17:45:52,194 - chats.base - DEBUG - [Logger] Initialized 'chats.base', output → D:\1. PROJECTS\projectwise_flaskui\logs\base.log
+2025-08-02 17:45:52,194 - chats.base - INFO - Logger aplikasi diinisialisasi
+2025-08-02 17:45:52,751 - chats.base - INFO - MCPClient instance created
+2025-08-02 17:45:52,755 - chats.base - INFO - Blueprints registered!
+2025-08-02 17:54:54,877 - chats.base - INFO - Connected
+2025-08-02 17:56:19,534 - chats.base - INFO - Connected
+2025-08-02 17:56:24,534 - chats.base - INFO - Connected
+2025-08-02 17:56:49,550 - chats.base - INFO - Connected
+2025-08-02 17:56:50,959 - chats.base - INFO - Connected
+2025-08-02 17:56:50,989 - chats.base - INFO - Connected
+2025-08-02 17:56:51,010 - chats.base - INFO - Connected
+2025-08-02 17:56:51,052 - chats.base - INFO - Connected
+2025-08-02 17:56:54,527 - chats.base - INFO - Connected
+2025-08-02 17:56:59,523 - chats.base - INFO - Connected
+2025-08-02 17:57:15,877 - chats.base - INFO - Connected
+2025-08-02 17:57:15,929 - chats.base - INFO - Connected
+2025-08-02 17:57:15,932 - chats.base - INFO - Connected
+2025-08-02 17:57:15,934 - chats.base - INFO - Connected
+2025-08-02 17:57:33,350 - chats.base - INFO - Connected
+2025-08-02 17:58:37,566 - chats.base - INFO - Connected
+2025-08-02 17:58:42,561 - chats.base - INFO - Connected
+2025-08-02 17:59:07,590 - chats.base - INFO - Connected
+2025-08-02 17:59:12,579 - chats.base - INFO - Connected
+2025-08-02 17:59:13,280 - chats.base - INFO - Connected
+2025-08-02 17:59:13,298 - chats.base - INFO - Connected
+2025-08-02 17:59:13,318 - chats.base - INFO - Connected
+2025-08-02 17:59:13,335 - chats.base - INFO - Connected
+2025-08-02 17:59:17,579 - chats.base - INFO - Connected
+2025-08-02 17:59:22,566 - chats.base - INFO - Connected
